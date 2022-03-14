@@ -1,0 +1,28 @@
+{% extends "text/layout.html" %}
+{% load static %}
+
+{% block body %}
+
+    <h1>Chapther 1: The Beginning</h1>
+
+    <p id="paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do magna aliqua. Bibendum
+        est ultricies integer quis auctor elit sed vulputate mi. Fringilla
+        urna porttitor rhoncus dolor. Turpis tincidunt id aliquet risus
+        feugiat in ante metus dictum. Quam quisque id diam vel. Ultricies
+        tristique nulla aliquet enim tortor at. Risus in hendrerit gravida
+        rutrum. Ullamcorper a lacus vestibulum sed. Tellus pellentesque eu
+        tincidunt tortor. Eget nullam non nisi est sit amet facilisis magna.
+        Imperdiet proin fermentum leo vel orci porta. Ac auctor augue mauris
+        augue. Donec ultrices tincidunt arcu non sodales neque sodales ut.
+        Turpis egestas sed tempus urna et. Orci phasellus egestas tellus
+        rutrum tellus pellentesque eu tincidunt.
+    </p>
+
+
+{% endblock %}
+
+
+{% block script %}
+    <script src="{% static 'text/highlight.js' %}"></script>
+{% endblock %}
